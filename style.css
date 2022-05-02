@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 12.5rem;
+  background-color: #fff;
+  margin-top: 1.8rem;
+  position: relative;
+  margin-bottom: 2.4rem;
+  height: 0.2rem;
+}
+
+.header .head-align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img {
+  width: 10%;
+  cursor: pointer;
+}
+
+.grid-form input{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 700;"
+}
+
+.nav-link {
+  list-style: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.nav-link li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 20px;
+  color: #000;
+}
+
+.nav-link a li {
+  transition: all 0.3s ease 0%;
+}
+
+.button a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  margin: 0.2rem;
+}
+
+.button .btn-1 {
+  border: 0.0625rem solid #142c8e;
+  color: #142c8e;
+  padding: 11px;
+  border-radius: 18px;
+  background-color: #fff;
+}
+
+.button .btn-2 {
+  border: 0.0625rem solid #142c8e;
+  color: #fff;
+  padding: 11px;
+  border-radius: 18px;
+  background-color: #142c8e;
+}
+
+.button .btn-1:hover {
+  border: 3px solid #142c8e;
+}
+
+.head {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  background-color: #142c8e;
+  margin-bottom: 2.4rem;
+}
+
+.paypal-head {
+  padding: 5.9rem 2.6rem 1.9rem;
+}
+
+h2 {
+  font-size: 6.5rem;
+  font-weight: 500;
+  margin-bottom: 2.1rem;
+  color: #fff;
+  line-height: 6rem;
+  padding: 0;
+}
+
+.border {
+  height: 80%;
+  border-left: 1px solid #c4c4c4;
+}
+
+.head-text {
+  font-size: 1.2rem;
+  color: #56ccfe;
+
+  width: fit-content;
+  margin-bottom: 3.2rem;
+}
+
+.head-text:hover {
+  border-bottom: 2px solid #56ccfe;
+}
+
+.head-code {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.grid-1 {
+  padding: 0 3.6rem 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  clear: both;
+  margin-top: 2.4rem;
+}
+
+.grid-form,
+.grid-link {
+  margin-bottom: 2.2rem;
+}
+
+.text-grid .grid-form input {
+  height: 55px;
+  width: 300px;
+}
+
+.grid-form input::placeholder {
+  padding: 1.2rem;
+  color: black;
+}
+
+.grid-link a:link,
+.grid-link a:visited {
+  text-decoration: none;
+  margin: 12px 2px;
+  background: #f9b822;
+  color: #0c0c0d;
+  min-width: 138px;
+  min-height: 56px;
+  padding: 1.2rem;
+  border-radius: 30px;
+}
+
+.grid-text {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-weight: 300;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.img-grid {
+ position: relative;
+ max-width: 535px;
+ float: none;
+ width: 90%;
+ bottom: -8px;
+  right: 25px;
+}
+
+.img-grid-2 {
+  margin-top: -14.6rem;
+}
+
+.Paypal {
+  padding: 0 9.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.Paypal p {
+  font-size: 1.3rem;
+  color: #000;
+  text-align: center;
+}
+
+.Paypal p a:link,
+.Paypal p a:visited {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #0070ba;
+}
+
+.line {
+  background-color: #ffffff;
+  color: #0c0c0d;
+  padding: 44px 0;
+  border-top: 1px solid #c4c4c4;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 9.4rem;
+  margin: 0 auto;
+}
+.steps-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 9.6rem;
+  row-gap: 3.6rem;
+  margin-bottom: 7.8rem;
+}
+
+.contain {
+  align-items: center;
+}
+
+.steps-img img {
+  width: 80%;
+}
+
+.steps-img {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.steps-head h1 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: 56px;
+}
+
+.steps-text .step-sales,
+.steps-text .final {
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-top: 1.3rem;
+  line-height: 30px;
+  margin-bottom: 2rem;
+}
+
+.steps .steps-1 {
+  margin-bottom: 2.4rem;
+}
+
+.stepping-1 .text-subhead {
+  font-size: 1.2rem;
+  margin-top: 1.3rem;
+  line-height: 30px;
+  font-weight: 550;
+}
+
+.steps-link a:link,
+.steps-link a:visited {
+  color: #1072eb;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.steps-link-btn a:link,
+.steps-link-btn a:visited {
+  color: #1072eb;
+  font-weight: 540;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.sponsor {
+  padding: 0 9.4rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3.4rem;
+}
+
+.sponsor-head h1 {
+  font-size: 2.7rem;
+  line-height: 56px;
+  font-weight: 500;
+
+  text-align: left !important;
+  color: #0c0c0d;
+}
+
+.sponsor-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.register {
+  background-color: #121661;
+  padding-top: 76px;
+  height: 100%;
+}
+
+.millions {
+  color: #fff;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-bottom: 2.8rem;
+}
+
+.signup-free {
+  text-align: center;
+  margin-bottom: 3.8rem;
+}
+
+.signup-free a:link,
+.signup-free a:visited {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #121661;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+.btn--free {
+  text-decoration: none;
+  padding: 0.8rem 6rem;
+}
+
+.register .signup-line {
+  border-bottom: 2px solid #c4c4c4;
+}
+
+.clock {
+  margin-bottom: 2.8rem;
+  display: flex;
+  justify-content: center;
+  background-color: #121661;
+  color: white;
+  padding-bottom: 96px;
+  text-align: center;
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.clock div {
+  display: flex;
+}
+
+.clock .number {
+  background-color: #1072eb;
+}
+
+.number {
+  font-family: PayPalSansSmall-Regular, Helvetica Neue, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  border-radius: 20px;
+  margin-right: 2px;
+  width: 60px;
+  justify-content: center;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+
+.btn-text {
+  padding: 0 6.9rem;
+  margin-bottom: 6rem;
+}
+
+.paying p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 100;
+}
+
+.footer {
+  padding: 0 6.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.help-list ul a:link,
+.help-list ul a:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 7px;
+  line-height: 1.6;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #000;
+  list-style: none;
+}
+
+.btn-line {
+  border-bottom: 1px solid #c4c4c4;
+  margin-bottom: 1.4rem;
+}
+
+.help-list-2 ul a:link,
+.help-list-2 ul a:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 7px;
+  line-height: 1.6;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #687173;
+  list-style: none;
+}
+
+.help-list-2,
+.footer-2 {
+  display: flex;
+  justify-content: space-between;
+}
